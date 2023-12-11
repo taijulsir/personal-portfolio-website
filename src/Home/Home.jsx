@@ -1,12 +1,11 @@
-import AboutMe from "../AboutMe/AboutMe";
-import Contact from "../Contact/Contact";
+
 import Navbar from "../Navbar/Navbar"
+import Banner from "./Banner";
 const Home = () => {
     return (
-        <div>
-          <Navbar id="home"></Navbar>
-           <AboutMe id="about"></AboutMe> 
-           <Contact id="contact"></Contact>
+        <div className=" container mx-auto">
+          <Navbar></Navbar>
+           <Banner id="home"></Banner>
         </div>
     );
 };
