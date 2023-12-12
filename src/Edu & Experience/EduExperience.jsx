@@ -1,10 +1,17 @@
 import Education from "../Education/Education";
 import Experience from "../Experience/Experience";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const EduExperience = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
-        <div className=" max-w-6xl mx-auto">
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2500" className=" max-w-6xl mx-auto">
             <h1 className="text-center text-white font-bold text-5xl mb-10">Education & Experience</h1>
             <div className="flex lg:flex-row flex-col justify-between gap-6">
                 <div>

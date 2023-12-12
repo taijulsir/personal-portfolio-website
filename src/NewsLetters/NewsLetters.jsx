@@ -1,10 +1,17 @@
 import { Parallax } from "react-parallax";
 import img from "../../public/banner.jpg";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const NewsLetters = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
-        <div>
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2500" >
             <Parallax
             blur={{ min: -50, max: 50 }}
             bgImage={img}

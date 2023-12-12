@@ -1,11 +1,19 @@
 import { Link } from "react-router-dom";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 
 const Banner = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
-        <div>
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2500">
             <div id="home">
                 <div className="flex items-center justify-center flex-col-reverse gap-5 lg:gap-0 lg:flex-row text-center lg:text-start p-5">
                     <div className=" w-full lg:w-1/2 mt-12 ">

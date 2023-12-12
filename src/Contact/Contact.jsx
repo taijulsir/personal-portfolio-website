@@ -1,7 +1,14 @@
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import Swal from 'sweetalert2';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     const form = useRef();
     console.log(form)
     const sendEmail = (e) => {
@@ -10,6 +17,13 @@ const Contact = () => {
         emailjs.sendForm('service_9hu6ey9', 'template_vzabm88', form.current, 'ou0ZmyBEULSF0Quv3')
             .then((result) => {
                 console.log(result.text);
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Success!',
+                    text: 'Your information is delivered.',
+                    confirmButtonColor: '#3085d6',
+                    confirmButtonText: 'OK'
+                  })
                 form.current.reset();
             }, (error) => {
                 console.log(error.text);
@@ -17,7 +31,9 @@ const Contact = () => {
     };
 
     return (
-        <div id="contact" className="mb-20">
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2500" id="contact" className="mb-20">
             <h1 className="text-4xl font-bold text-white text-center mb-10">Get In Touch</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 px-0 md:px-2 lg:px-0 gap-8 md:gap-0 lg:gap-8 items-start mx-auto lg:max-w-5xl">
                 <div className="grid gap-2 text-light-400 ml-8 md:ml-0">
