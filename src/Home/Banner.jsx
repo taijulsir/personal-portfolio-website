@@ -5,7 +5,7 @@
 const Banner = () => {
     return (
         <div>
-            <div>
+            <div id="home">
                 <div className="flex items-center justify-center flex-col-reverse gap-5 lg:gap-0 lg:flex-row text-center lg:text-start p-5">
                     <div className=" w-full lg:w-1/2 mt-16 ">
                         <h1 className="text-5xl font-bold mb-5 text-white">Hi, I Am Md Tazul Islam</h1>
