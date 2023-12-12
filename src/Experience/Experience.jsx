@@ -10,7 +10,7 @@ const Experience = () => {
     return (
         <div data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="2500">
+        data-aos-duration="2500" className=' overflow-hidden'>
             <div className="max-w-5xl mx-auto mb-20">
                 <div className="grid grid-cols-1  gap-5 md:px-14 px-2 lg:px-0">
 

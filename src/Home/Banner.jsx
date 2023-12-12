@@ -13,7 +13,7 @@ const Banner = () => {
     return (
         <div data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="2500">
+        data-aos-duration="2500" className=" overflow-hidden">
             <div id="home">
                 <div className="flex items-center justify-center flex-col-reverse gap-5 lg:gap-0 lg:flex-row text-center lg:text-start p-5">
                     <div className=" w-full lg:w-1/2 mt-12 ">

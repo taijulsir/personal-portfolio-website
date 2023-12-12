@@ -10,11 +10,11 @@ const Projects = () => {
     return (
         <div data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="2500" id="projects" className="mb-20 lg:max-w-6xl mx-auto">
+        data-aos-duration="2500" id="projects" className="mb-20 lg:max-w-6xl mx-auto overflow-hidden">
             <h1 className="text-center text-white text-5xl font-semibold mb-14">Projects</h1>
-            <div className="grid items-center grid-cols-1 gap-6 lg:grid-cols-2 justify-items-center">
+            <div className="grid items-center grid-cols-1 gap-6 lg:grid-cols-2 justify-items-center px-5 lg:px-0">
                 {/* Project One */}
-                <div className="card w-[410px] lg:w-[450px] bg-[#2c1831] p-6 border rounded-lg shadow-2xl hover:scale-105 transition-transform transform-gpu">
+                <div className="card w-[410px] lg:w-[450px] bg-[#2c1831] p-6 border rounded-lg shadow-2xl hover:scale-105 transition-transform transform-gpu overflow-hidden">
                     <img src="https://i.ibb.co/RvmbM62/Screenshot-230.png" alt="Shoes" className="rounded-xl bg-transparent w-[400px] h-[205px]  object-cover" />
                     <div className="mt-4 text-white">
                         <h1 className="mt-4 mb-2 text-xl">Luxury Real Estate</h1>
@@ -37,7 +37,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Project Two */}
-                <div className="card w-[410px] lg:w-[450px] bg-[#2c1831] p-6  border rounded-lg shadow-2xl hover:scale-105 transition-transform transform-gpu">
+                <div className="card w-[410px] lg:w-[450px] bg-[#2c1831] p-6  border rounded-lg shadow-2xl hover:scale-105 transition-transform transform-gpu overflow-hidden">
                     <img src="https://i.ibb.co/zVrXKHd/Screenshot-231.png" alt="Shoes" className="rounded-xl bg-transparent  w-[400px] h-[205px]  object-cover" />
                     <div className="mt-4 text-white">
                         <h1 className="mt-4 mb-2 text-xl">Food Sharing Community</h1>
@@ -58,7 +58,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Project Three */}
-                <div className="card w-[410px] lg:w-[450px] bg-[#2c1831]  p-6  border rounded-lg shadow-2xl hover:scale-105 transition-transform transform-gpu">
+                <div className="card w-[410px] lg:w-[450px] bg-[#2c1831]  p-6  border rounded-lg shadow-2xl hover:scale-105 transition-transform transform-gpu overflow-hidden">
                     <img src="https://i.ibb.co/yW6RGHX/brand-Cars.png" alt="Shoes" className="rounded-xl bg-transparent  w-[400px] h-[205px]  object-cover" />
                     <div className="mt-4 text-white">
                         <h1 className="mt-4 mb-2 text-xl">Brand Cars Shop</h1>
@@ -79,7 +79,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* Project Four */}
-                <div className="card w-[410px] lg:w-[450px] bg-[#2c1831]  p-6  border rounded-lg shadow-2xl hover:scale-105 transition-transform transform-gpu">
+                <div className="card w-[410px] lg:w-[450px] bg-[#2c1831]  p-6  border rounded-lg shadow-2xl hover:scale-105 transition-transform transform-gpu overflow-hidden">
                     <img src="https://i.ibb.co/qJSPLyK/wedding.png" alt="Shoes" className="rounded-xl bg-transparent  w-[400px] h-[205px]  object-cover" />
                     <div className="mt-4 text-white">
                         <h1 className="mt-4 mb-2 text-xl">Botanica Wedding</h1>

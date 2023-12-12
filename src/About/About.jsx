@@ -1,10 +1,17 @@
 
 import { Link } from "react-router-dom";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
-        <div className="min-h-screen lg:w-2/3 mx-auto pt-24 text-center lg:text-start px-2 ">
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2500" className="min-h-screen lg:w-2/3 mx-auto pt-24 text-center lg:text-start px-2 overflow-hidden ">
             <h1 className="text-white text-5xl font-bold mb-2">Hello, I'm <span className="text-pink-800">Md Tazul Islam</span></h1>
             <h2 className="text-white text-2xl font-semibold">A Junior MERN-Stack-Developer</h2>
             <p className="text-white mt-4 text-lg md:mx-0 font-primary">with a passion for creating immersive and dynamic web applications. My journey in web development began as a detail-oriented Front-End Developer, driven by a curiosity to craft visually appealing and user-friendly websites. Building upon a strong foundation in JavaScript, React.js, and Next.js, I've now expanded my skill set to include the full MERN (MongoDB, Express.js, React.js, Node.js) stack.

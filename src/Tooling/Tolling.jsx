@@ -8,7 +8,7 @@ const Tooling = () => {
     return (
         <div data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="2500" className="container mx-auto mb-20">
+        data-aos-duration="2500" className="container mx-auto mb-20 overflow-hidden">
             <h1 className="text-center text-white text-5xl font-semibold mb-14">Skills & Expertise</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10 px-2 lg:px-0">
                 <div className="btn py-2 btn-outline text-white flex items-center gap-5">
