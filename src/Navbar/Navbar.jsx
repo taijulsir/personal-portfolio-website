@@ -15,10 +15,8 @@ const Navbar = () => {
         <>
             <li className="text-xl font-medium mr-2"><Link to="/" onClick={() => scrollToSection("home")}>Home</Link></li>
             <li className="text-xl font-medium mr-2"><Link to="#projects" onClick={() => scrollToSection("projects")}>Projects</Link></li>
-            <li className="text-xl font-medium mr-2"><Link to="#service" onClick={() => scrollToSection("service")}>Service</Link></li>
-            <li className="text-xl font-medium mr-2"><Link to="#blogs" onClick={() => scrollToSection("blogs")}>Blogs</Link></li>
             <li className="text-xl font-medium mr-2"><Link to="#contact" onClick={() => scrollToSection("contact")}>Contact</Link></li>
-            <li className="text-xl font-medium mr-2"><Link to="#about" onClick={() => scrollToSection("about")}>About</Link></li>
+            <li className="text-xl font-medium mr-2"><Link to="/about" onClick={() => scrollToSection("about")}>About</Link></li>
         </>
     );
     return (
@@ -43,7 +41,7 @@ const Navbar = () => {
                         <h1 className="text-xl font-bold w-64 text-white ">Md Tazul Islam</h1>
                     </div>
                 </div>
-                <div className=" hidden lg:flex">
+                <div className=" navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-white">
                         {navlinks}
                     </ul>

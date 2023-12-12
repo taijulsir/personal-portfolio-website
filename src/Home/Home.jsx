@@ -1,5 +1,6 @@
 
 import Contact from "../Contact/Contact";
+import EduExperience from "../Edu & Experience/EduExperience";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar"
 import NewsLetters from "../NewsLetters/NewsLetters";
@@ -11,6 +12,7 @@ const Home = () => {
         <div className=" container mx-auto">
           <Navbar></Navbar>
            <Banner></Banner>
+           <EduExperience></EduExperience>
            <Tooling></Tooling>
            <Projects></Projects>
            <Contact></Contact>
