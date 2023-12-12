@@ -1,4 +1,5 @@
 
+import Contact from "../Contact/Contact";
 import Navbar from "../Navbar/Navbar"
 import Projects from "../Projects/Projects";
 import Tooling from "../Tooling/Tolling";
@@ -10,6 +11,7 @@ const Home = () => {
            <Banner></Banner>
            <Tooling></Tooling>
            <Projects></Projects>
+           <Contact></Contact>
         </div>
     );
 };
