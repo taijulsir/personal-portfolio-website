@@ -1,5 +1,6 @@
 
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar"
 import Projects from "../Projects/Projects";
 import Tooling from "../Tooling/Tolling";
@@ -12,6 +13,7 @@ const Home = () => {
            <Tooling></Tooling>
            <Projects></Projects>
            <Contact></Contact>
+           <Footer></Footer>
         </div>
     );
 };
