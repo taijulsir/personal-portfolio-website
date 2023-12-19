@@ -25,7 +25,7 @@ const About = () => {
                 Beyond my technical skills, I bring a strong commitment to deadlines, attention to detail, and a passion for delivering high-quality work. I look forward to contributing my expertise to MERN stack projects, exceeding client expectations and bringing innovative solutions to the forefront.</p>
             <div className="flex justify-center gap-4 mt-6 lg:justify-start">
                 <a to="/" id="projects" className="text-lg text-white rounded border-accent-400 btn btn-outline hover:bg-pink-800 hover:text-white hover:transition-all hover:duration-1000 " href="/#projects">Project</a>
-                <a rel="noreferrer" target="_blank" className="text-lg text-white rounded btn bg-pink-800 hover:bg-transparent hover:border-accent-400 hover:transition-all hover:duration-1000 hover:text-white" href="https://drive.google.com/uc?export=download&id=1TSMQgPQz1E_pQXfZffbCyR3TFxWDUra6" download>Resume</a>
+                <a rel="noreferrer" target="_blank" className="text-lg text-white rounded btn bg-pink-800 hover:bg-transparent hover:border-accent-400 hover:transition-all hover:duration-1000 hover:text-white" href="https://drive.google.com/uc?export=download&id=1yQZOD-pLFUOzpQRV3HMHDoW1y6ajIlc_" download>Resume</a>
             </div>
             <div className="mt-5">
                 <Link to='/'><button className="text-lg text-white border-none rounded btn bg-pink-800 hover:bg-transparent hover:border-accent-400 hover:transition-all hover:duration-1000 hover:text-white">Move Home</button></Link>

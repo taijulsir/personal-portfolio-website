@@ -21,7 +21,7 @@ const Banner = () => {
                         <h3 className="text-2xl font-semibold mb-5 text-white">Junior Mern Stack Developer</h3>
                         <p className="mb-5 font-normal text-base text-white">🚀 Crafting MERN Marvels! Junior Developer adept at weaving data spells and frontend finesse with MongoDB, Express, React, and Node.js. 🌟 Firebase Authentication maestro adding a layer of security to the coding adventure. Join me as we innovate with HTML, CSS, JavaScript, and more! 🌈✨ #MERNExplorer 🔐</p>
                         <div className="flex items-center justify-center lg:justify-start gap-5">
-                            <Link target="_blank" to="https://drive.google.com/uc?export=download&id=1TSMQgPQz1E_pQXfZffbCyR3TFxWDUra6" download className="btn btn-success">Resume</Link>
+                            <Link target="_blank" to="https://drive.google.com/uc?export=download&id=1yQZOD-pLFUOzpQRV3HMHDoW1y6ajIlc_" download className="btn btn-success">Resume</Link>
                             <button className="btn btn-success">Projects</button>
                         </div>
                     </div>

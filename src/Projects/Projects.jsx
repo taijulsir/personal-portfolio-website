@@ -12,7 +12,7 @@ const Projects = () => {
         data-aos-easing="linear"
         data-aos-duration="2500" id="projects" className="mb-20 lg:max-w-6xl mx-auto overflow-hidden">
             <h1 className="text-center text-white text-5xl font-semibold mb-14">Projects</h1>
-            <div className="grid items-center grid-cols-1 gap-6 lg:grid-cols-2 justify-items-center px-5 lg:px-0">
+            <div className="grid items-center grid-cols-1 gap-6 lg:grid-cols-2 justify-items-center  lg:px-0">
                 {/* Project One */}
                 <div className="card w-[410px] lg:w-[450px] bg-[#2c1831] p-6 border rounded-lg shadow-2xl lg:hover:scale-105 transition-transform transform-gpu overflow-hidden">
                     <img src="https://i.ibb.co/RvmbM62/Screenshot-230.png" alt="Shoes" className="rounded-xl bg-transparent w-[400px] h-[205px]  object-cover" />
