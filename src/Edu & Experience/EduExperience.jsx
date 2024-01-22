@@ -13,7 +13,7 @@ const EduExperience = () => {
         data-aos-easing="linear"
         data-aos-duration="2500" className=" max-w-6xl mx-auto overflow-hidden">
             <h1 className="text-center text-white font-bold text-5xl mb-10">Education & Experience</h1>
-            <div className="flex lg:flex-row flex-col justify-between gap-6">
+            <div className="flex lg:flex-row flex-col justify-between gap-6 lg:px-0 px-3">
                 <div>
                     <Education></Education>
                 </div>

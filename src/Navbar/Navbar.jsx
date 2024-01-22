@@ -32,13 +32,15 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="flex lg:gap-2 items-center">
-                        <Player className="w-24"
-                            autoplay
-                            loop
-                            src="https://lottie.host/aca6a867-d86b-46ef-936e-e10044aaddf5/qa95TzBDfE.json"
-                        >
-                        </Player>
-                        <h1 className="text-xl font-bold w-64 text-white ">Md Tazul Islam</h1>
+                    
+                            <Player className="w-24"
+                                autoplay
+                                loop
+                                src="https://lottie.host/aca6a867-d86b-46ef-936e-e10044aaddf5/qa95TzBDfE.json"
+                            >
+                            </Player>
+                            <h1 className="text-xl font-bold  text-white " style={{ whiteSpace: "nowrap"}}>Md Tazul Islam</h1>
+                       
                     </div>
                 </div>
                 <div className=" navbar-end hidden lg:flex">

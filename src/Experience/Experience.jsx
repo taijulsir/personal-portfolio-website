@@ -29,7 +29,7 @@ const Experience = () => {
                         <h3 className="text-base font-medium text-white flex items-center mt-2"><IoMdArrowDropright></IoMdArrowDropright> Enhanced Backend Functionality: </h3>
                         <p className="text-sm font-medium text-white">Integrated MongoDB, optimized backend for performance.</p>
                     </div>
-                    <div className="border-2 border-blue-400 shadow-2xl  shadow-gray-300/50  rounded py-5 px-2">
+                    <div className="border-2 border-blue-400   rounded py-5 px-2">
                         <h1 className="text-xl font-semibold text-white">Version Control Skills</h1>
                         <h3 className="text-base font-medium text-white flex items-center mt-2"> <IoMdArrowDropright></IoMdArrowDropright>Git Proficiency:</h3>
                         <p className="text-sm font-medium text-white">

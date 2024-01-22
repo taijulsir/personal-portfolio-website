@@ -10,7 +10,7 @@ const Tooling = () => {
         data-aos-easing="linear"
         data-aos-duration="2500" className="container mx-auto mb-20 overflow-hidden">
             <h1 className="text-center text-white text-5xl font-semibold mb-14">Skills & Expertise</h1>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10 px-2 lg:px-0">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10 px-4 lg:px-0">
                 <div className="btn py-2 btn-outline text-white flex items-center gap-5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 128 128" id="html-5"><path fill="#E44D26" d="M9.032 2l10.005 112.093 44.896 12.401 45.02-12.387 10.015-112.107h-109.936zm89.126 26.539l-.627 7.172-.276 3.289h-52.665000000000006l1.257 14h50.156000000000006l-.336 3.471-3.233 36.119-.238 2.27-28.196 7.749v.002l-.034.018-28.177-7.423-1.913-21.206h13.815000000000001l.979 10.919 15.287 4.081h.043v-.546l15.355-3.875 1.604-17.579h-47.698l-3.383-38.117-.329-3.883h68.939l-.33 3.539z"></path></svg>
                     <h1 className="text-base font-semibold">HTML</h1>
